@@ -6,7 +6,7 @@ body{
     height: 100%;
     overflow: hidden;
 }
-.background-video {
+.background-full{
     position: fixed;
     top: 0;
     left: 0;
@@ -15,21 +15,6 @@ body{
     object-fit: cover;
     z-index: -1;
 }
-/*.content {
-    //position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    z-index: 1;
-}*/
 
 nav {
     position: absolute;
@@ -42,12 +27,7 @@ nav {
     margin-top: -1%;
     text-align: right;
 }
-/*nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-}*/
+
 nav ul li {
     display: inline;
 }
@@ -99,9 +79,3 @@ div exemplo1{
     width: 1300px;
     height: ;
 }
-
-/*div{
-    margin-top: 10%;
-    margin-left: 15%;
-    font-size: px;
-}*/
