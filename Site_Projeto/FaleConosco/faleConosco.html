@@ -3,69 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../index.css"> <!-- Link para o CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Adicionando Font Awesome -->
     <title>Drone Proz</title>
 </head>
 <body>
-    <nav>
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="../Sobre/sobre.html">Sobre</a></li>
-          <li><a href="../Servicos/servicos.html">Serviços</a></li>
-          <li><a href="../Ensino/ensino.html">Ensino</a></li>
-          <li><a href="../Dicas/dicas.html">Dicas</a></li>
-          <li><a href="../Depoimentos/depoimentos.html">Depoimento</a></li>
-          <li><a href="faleConosco.html">Fale Conosco</a></li>
-        </ul>
-      </nav>
-    <form>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html" title="Ir para a página inicial">Início</a></li>
+                <li><a href="../Sobre/sobre.html" title="Saiba mais sobre nós">Sobre</a></li>
+                <li><a href="../Servicos/servicos.html" title="Conheça nossos serviços">Serviços</a></li>
+                <li><a href="../Ensino/ensino.html" title="Descubra nossos cursos de ensino">Ensino</a></li>
+                <li><a href="../Dicas/dicas.html" title="Dicas úteis">Dicas</a></li>
+                <li><a href="../Depoimentos/depoimentos.html" title="Veja depoimentos de clientes">Depoimentos</a></li>
+                <li><a href="faleConosco.html" title="Entre em contato conosco">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
         <h1>Fale Conosco</h1>
-  
-        <div>
-          <label for="nome_completo">Nome completo:</label>
-          <br />
-          <input type="text" placeholder="Nome do Aluno" id="nome_completo" />
-        </div>
-  
-        <div>
-          <label for="email">Email:</label>
-          <br />
-          <input type="email" placeholder="emailaluno@exemplo.com" id="email" />
-        </div>
-  
-        <div>
-          <label for="senha">Senha:</label><br />
-          <input type="password" placeholder="Ab123#" id="senha" />
-        </div>
-  
-        <div>
-          <label for="telefone">Telefone:</label><br />
-          <input type="tel" placeholder="11-2222-3333" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" id="telefone"/>
-        </div>
-  
-        <div>
-          <input type="submit" value="Enviar" />
-        </div>
-      </form>
-      <div>
-        <p>SOCIAL</p>
-      </div>
-      <footer>
-        <!--<div class="sobreNos">
-            <h4>Sobre nós</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
-        </div>-->
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Preencha os campos abaixo:</legend>
+
+                <div>
+                    <label for="nome_completo">Nome completo:</label>
+                    <input type="text" id="nome_completo" name="nome_completo" placeholder="Nome do Aluno" required>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="emailaluno@exemplo.com" required>
+                </div>
+
+                
+                <div>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Ab123#" required>
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="11-2222-3333" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required>
+                </div>
+
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <section>
+        <h2>Siga-nos nas redes sociais</h2>
+        <p>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                <i class="fab fa-facebook"></i> Facebook
+            </a> |
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </p>
+    </section>
+
+    <footer>
         <div class="contato">
             <h4>Contato</h4>
             <p>
-            Endereço: Rua Exemplo Proz, 2025<br>
-            Telefone: (11) 2025-2025<br>
-            E-mail: <a href="mailto:exemplo@exemplo.com">exemplo@exemplo.com</a>
+                Endereço: Rua Exemplo Proz, 2025<br>
+                Telefone: (11) 2025-2025<br>
+                E-mail: <a href="mailto:exemplo@exemplo.com">exemplo@exemplo.com</a>
             </p>
         </div>
+
         <div class="copyright">
-          &copy; 2025 Exemplo. Todos os direitos reservados.
+            &copy; 2025 Exemplo. Todos os direitos reservados.
         </div>
-      </footer>
+    </footer>
 </body>
 </html>
