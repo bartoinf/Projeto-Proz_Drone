@@ -344,4 +344,30 @@ html usado pelo professor para a solucao do video
 
 ------
 
-entrega da sprint 15/04
+html redes sociais
+    <section>
+        <h2>Siga-nos nas redes sociais</h2>
+        <p>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                <i class="fab fa-facebook"></i> Facebook
+            </a> |
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        <div class="contato">
+            <h4>Contato</h4>
+            <p>
+                Endereço: Rua Exemplo Proz, 2025<br>
+                Telefone: (11) 2025-2025<br>
+                E-mail: <a href="mailto:exemplo@exemplo.com">exemplo@exemplo.com</a>
+            </p>
+        </div>
+
+        <div class="copyright">
+            &copy; 2025 Exemplo. Todos os direitos reservados.
+        </div>
+    </footer>
