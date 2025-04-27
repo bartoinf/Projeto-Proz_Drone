@@ -1,25 +1,25 @@
-*{
-    margin:0;
-  }
-  
-  nav {
-    background-color: black;
-  }
-  
-  ul{
-    display:flex;
-    justify-content: end;
-    text-decoration: none;
-    padding: 10px 0;
-  }
-  
-  a{
-    color: white;
-    margin: 0 10px;
-  }
-  
-  #logo{
-    display:flex;
-    justify-content: end;
-    padding:10px 70px
-  }
+* {
+  margin: 0;
+}
+
+section {
+  overflow: hidden;
+  display: grid;
+  justify-items: center;
+}
+
+header {
+  height: 20px; /* valor ilustrativo, troquem pelo que quiserem  */
+}
+
+video {
+  min-width: calc(100vw);
+  max-width: calc(100vh * 384 / 216); /* esses valores são múltiplos da largura e altura originais do vídeo  */
+  min-height: calc(100vh - 20px); /* esse 20 é a altura do header  */
+  max-height: calc(100vw * 216 / 384);
+}
+
+main {
+  position: absolute;
+  top: 20px; /* esse 20 é a altura do header  */
+}
