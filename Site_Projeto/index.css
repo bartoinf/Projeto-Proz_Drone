@@ -81,6 +81,26 @@ video {
   margin-top: 20px;
 }
 
+/*Sobre*/
+.tituloSobre{
+  font-size: 30px;
+  color: white;
+  margin-left: 900px;
+  margin-top: 80px;
+}
+
+.paragrafoSobre{
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+
+.paragrafoSobre{
+
+}
+
 /*Serviço*/
 .servico{
   display: flex;
