@@ -322,21 +322,53 @@ video {
 }
 
 /*Fale Conosco*/
-.imgFaleConosco{
+
+/*formulário */
+.h1Faleconosco{
+  text-align: center;
+  color: rgb(187, 153, 219);
+}
+
+form {
   display: flex;
-  margin: 0;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  flex-direction: column;
 }
 
-.imgFC_Esq{
-  width: 10px;
-  height: 100%;
-
+fieldset {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
 }
 
-.imgFC_Dir{
-  width: 90px;
-  height: 100%;
+legend {
+  font-weight: bold;
+  color:  rgb(207, 65, 119);
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
 }
