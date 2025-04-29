@@ -331,12 +331,12 @@ video {
 }
 
 .imgFC_Esq{
-  width: 10%;
+  width: 10px;
   height: 100%;
 
 }
 
 .imgFC_Dir{
-  width: 90%;
+  width: 90px;
   height: 100%;
 }
